@@ -12,7 +12,7 @@ sites:
   - name: eduPort Lui
     url: https://luise.hamburg.de
   - name: LMS Hamburg
-    url: https://lms.hamburg.de
+    url: https://lms.lernen.hamburg
  
 
 status-website:
