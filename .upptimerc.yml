@@ -5,13 +5,32 @@ repo: LuisenGym # The name of this repository
 sites:
   - name: Luinet
     url: https://luinet.de
+    maxResponseTime: 1000
+    icon: https://halloluise.de/wp-content/uploads/2017/09/cropped-luilogo-1-150x150.png
+    assignees: # Users to assign downtime issues (optional)
+    - DianaHaidarbaigi
   - name: Halloluise
     url: https://halloluise.de
+    maxResponseTime: 1000
+    icon: https://halloluise.de/wp-content/uploads/2017/09/cropped-luilogo-1-150x150.png
   - name: eduPort Lui
     url: https://luise.hamburg.de
+    maxResponseTime: 3000
+    icon: https://eduport.hamburg.de/wp-content/uploads/sites/223/2016/04/cropped-icon-1-32x32.jpg
   - name: LMS Hamburg
     url: https://lms.lernen.hamburg
+    maxResponseTime: 3000
+    icon: https://lms.lernen.hamburg/theme/image.php/ocschool/theme/1616487992/favicon
  
+ # CI schedule
+workflowSchedule:
+  graphs: "0 0 * * *"
+  responseTime: "*/10 * * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "0 3 * * *"
+  uptime: "*/5 * * * *"
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
