@@ -4,7 +4,7 @@ repo: LuisenGym # The name of this repository
 
 sites:
  - name: Luinet
-    url: https://luinet.de
+   url: https://luinet.de
   - name: Halloluise
     url: https://halloluise.de
   - name: eduPort Lui
