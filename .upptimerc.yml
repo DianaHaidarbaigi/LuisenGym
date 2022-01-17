@@ -24,7 +24,7 @@ sites:
  
  # CI schedule
 workflowSchedule:
-  graphs: "0 0 * * *"
+  graphs: "0 0,12,18 * * *"
   responseTime: "*/10 * * * *"
   staticSite: "0 1 * * *"
   summary: "0 0 * * *"
