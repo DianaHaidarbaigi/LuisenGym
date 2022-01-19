@@ -21,6 +21,11 @@ sites:
     url: https://lms.lernen.hamburg
     maxResponseTime: 3000
     icon: https://lms.lernen.hamburg/theme/image.php/ocschool/theme/1616487992/favicon
+  - name: Divis
+    url: https://login-divis.hamburg.de/logon/LogonPoint/tmindex.html
+    maxResponseTime: 3000
+    icon: https://schul-it.hamburg.de/contentblob/2011400/980d81807b9464f255c2d1a628b2f322/thumbnail/headernavigation-fm.png
+   
  
  # CI schedule
 workflowSchedule:
