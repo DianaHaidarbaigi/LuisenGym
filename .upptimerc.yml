@@ -9,22 +9,35 @@ sites:
     icon: https://halloluise.de/wp-content/uploads/2017/09/cropped-luilogo-1-150x150.png
     assignees: # Users to assign downtime issues (optional)
     - DianaHaidarbaigi
+    - aruben
   - name: Halloluise
     url: https://halloluise.de
     maxResponseTime: 1000
     icon: https://halloluise.de/wp-content/uploads/2017/09/cropped-luilogo-1-150x150.png
+    assignees: # Users to assign downtime issues (optional)
+    - DianaHaidarbaigi
+    - aruben
   - name: eduPort Lui
     url: https://luise.hamburg.de
     maxResponseTime: 3000
     icon: https://eduport.hamburg.de/wp-content/uploads/sites/223/2016/04/cropped-icon-1-32x32.jpg
+    assignees: # Users to assign downtime issues (optional)
+    - DianaHaidarbaigi
+    - aruben
   - name: LMS Hamburg
     url: https://lms.lernen.hamburg
     maxResponseTime: 3000
     icon: https://lms.lernen.hamburg/theme/image.php/ocschool/theme/1616487992/favicon
+    assignees: # Users to assign downtime issues (optional)
+    - DianaHaidarbaigi
+    - aruben
   - name: Divis
     url: https://login-divis.hamburg.de/logon/LogonPoint/tmindex.html
     maxResponseTime: 3000
     icon: https://schul-it.hamburg.de/contentblob/2011400/980d81807b9464f255c2d1a628b2f322/thumbnail/headernavigation-fm.png
+    assignees: # Users to assign downtime issues (optional)
+    - DianaHaidarbaigi
+    - aruben
    
  
  # CI schedule
