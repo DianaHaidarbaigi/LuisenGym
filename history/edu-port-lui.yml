@@ -1,7 +1,7 @@
 url: https://luise.hamburg.de
-status: down
+status: degraded
 code: 403
-responseTime: 1091
-lastUpdated: 2023-03-03T16:35:52.623Z
+responseTime: 5103
+lastUpdated: 2023-03-03T16:51:30.842Z
 startTime: Sat Jan 15 2022 14:37:17 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
